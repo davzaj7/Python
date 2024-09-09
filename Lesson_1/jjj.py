@@ -1,3 +1,6 @@
+xxx = "jjj"
+type(xxx)
+
 print("Hello")
 print("xxx")
 xxx = ["apple", "banana", "orange", "pear", "plum"]
