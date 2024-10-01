@@ -1,0 +1,31 @@
+# Viki Stefancova
+# 30 oct 2023
+# vycistenie bordelu v poli
+
+import random
+
+# definicia listu
+fruits = ["epl",13,"wiki","telekom","","tomejtou","piiich",2,"tralala"]
+print(fruits)
+print()
+
+# pocet elementov vo fruits:
+Nfruits = len(fruits)
+for i in range(1000):
+    nahodne_cislo=random.randrange(1,10)
+    if nahodne_cislo>3:
+        fruits.append(nahodne_cislo)
+    else:
+        fruits.append("")
+random.shuffle(fruits)
+print (fruits)
+print()
+
+for f in fruits:
+    if isinstance (f, str) and len (f)>0:
+        print (f)
+        
+
+
+
+
